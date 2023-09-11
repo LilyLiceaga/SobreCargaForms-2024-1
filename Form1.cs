@@ -16,24 +16,20 @@ namespace SobreCargaForms_2024_1
         {
             InitializeComponent();
         }
-
-        #region Metodos Sobrecargados
         private void btnSuma_Click(object sender, EventArgs e)
         {
             lbSuma.Text = Suma(float.Parse(txtbOperando1.Text), float.Parse(txtbOperando2.Text)).ToString();
         }
+        private void btnSuma2_Click(object sender, EventArgs e)
+        {
+            lbSuma2.Text = Suma(float.Parse(txtbOperando21.Text), float.Parse(txtbOperando22.Text), float.Parse(txtbOperando23.Text)).ToString();
+        }
 
+        #region Metodos Sobrecargados
         private float Suma(float sumando1, float sumando2)
         {
             return sumando1 + sumando2;
         }
-
-
-        private void btnSuma2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private float Suma(float sumando1, float sumando2, float sumando3)
         {
             return sumando1 + sumando2 + sumando3;
