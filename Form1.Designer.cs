@@ -35,6 +35,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lbSuma = new System.Windows.Forms.Label();
             this.btnSuma = new System.Windows.Forms.Button();
+            this.btnSuma2 = new System.Windows.Forms.Button();
+            this.txtbOperando22 = new System.Windows.Forms.TextBox();
+            this.txtbOperando21 = new System.Windows.Forms.TextBox();
+            this.lbSuma2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtbOperando23 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -104,11 +113,106 @@
             this.btnSuma.UseVisualStyleBackColor = true;
             this.btnSuma.Click += new System.EventHandler(this.btnSuma_Click);
             // 
+            // btnSuma2
+            // 
+            this.btnSuma2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuma2.Location = new System.Drawing.Point(675, 141);
+            this.btnSuma2.Name = "btnSuma2";
+            this.btnSuma2.Size = new System.Drawing.Size(87, 30);
+            this.btnSuma2.TabIndex = 9;
+            this.btnSuma2.Text = "sumar";
+            this.btnSuma2.UseVisualStyleBackColor = true;
+            this.btnSuma2.Click += new System.EventHandler(this.btnSuma2_Click);
+            // 
+            // txtbOperando22
+            // 
+            this.txtbOperando22.Location = new System.Drawing.Point(262, 148);
+            this.txtbOperando22.Name = "txtbOperando22";
+            this.txtbOperando22.Size = new System.Drawing.Size(74, 20);
+            this.txtbOperando22.TabIndex = 7;
+            this.txtbOperando22.Text = "0";
+            this.txtbOperando22.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtbOperando21
+            // 
+            this.txtbOperando21.Location = new System.Drawing.Point(94, 148);
+            this.txtbOperando21.Name = "txtbOperando21";
+            this.txtbOperando21.Size = new System.Drawing.Size(74, 20);
+            this.txtbOperando21.TabIndex = 8;
+            this.txtbOperando21.Text = "0";
+            this.txtbOperando21.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // lbSuma2
+            // 
+            this.lbSuma2.AutoSize = true;
+            this.lbSuma2.Location = new System.Drawing.Point(610, 151);
+            this.lbSuma2.Name = "lbSuma2";
+            this.lbSuma2.Size = new System.Drawing.Size(13, 13);
+            this.lbSuma2.TabIndex = 3;
+            this.lbSuma2.Text = "0";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(531, 146);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(25, 25);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "=";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(205, 148);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(25, 25);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "+";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(38, 151);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(34, 13);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Suma";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(362, 148);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(25, 25);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "+";
+            // 
+            // txtbOperando23
+            // 
+            this.txtbOperando23.Location = new System.Drawing.Point(419, 148);
+            this.txtbOperando23.Name = "txtbOperando23";
+            this.txtbOperando23.Size = new System.Drawing.Size(74, 20);
+            this.txtbOperando23.TabIndex = 7;
+            this.txtbOperando23.Text = "0";
+            this.txtbOperando23.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 201);
+            this.ClientSize = new System.Drawing.Size(829, 237);
+            this.Controls.Add(this.btnSuma2);
+            this.Controls.Add(this.txtbOperando23);
+            this.Controls.Add(this.txtbOperando22);
+            this.Controls.Add(this.txtbOperando21);
+            this.Controls.Add(this.lbSuma2);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.btnSuma);
             this.Controls.Add(this.txtbOperando2);
             this.Controls.Add(this.txtbOperando1);
@@ -132,6 +236,15 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lbSuma;
         private System.Windows.Forms.Button btnSuma;
+        private System.Windows.Forms.Button btnSuma2;
+        private System.Windows.Forms.TextBox txtbOperando22;
+        private System.Windows.Forms.TextBox txtbOperando21;
+        private System.Windows.Forms.Label lbSuma2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtbOperando23;
     }
 }
 
